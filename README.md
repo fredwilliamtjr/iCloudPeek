@@ -4,9 +4,16 @@
 
 Um app macOS de barra de menu que lista todos os arquivos em trânsito com o iCloud, em tempo real. Feito para quem precisa saber *por que* o Mac ainda está sincronizando depois de horas.
 
-<p align="center">
-  <img src="docs/menubar.png" alt="iCloudPeek em ação">
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="docs/menubar.png" alt="iCloudPeek sincronizando" width="380"></td>
+    <td align="center"><img src="docs/idle.png" alt="iCloudPeek em espera" width="380"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub><b>Trabalhando</b> — 7 arquivos subindo</sub></td>
+    <td align="center"><sub><b>Em espera</b> — tudo sincronizado</sub></td>
+  </tr>
+</table>
 
 ## Por que existe
 
