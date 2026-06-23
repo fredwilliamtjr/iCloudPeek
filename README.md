@@ -49,12 +49,15 @@ iCloudPeek é um app de barra de menu que **lista em tempo real cada arquivo em 
 ## 📦 Instalação
 
 1. Baixe o `.dmg` da página de [Releases](https://github.com/fredwilliamtjr/iCloudPeek/releases)
-2. Monte o DMG e arraste o `iCloudPeek.app` pra pasta **Applications**
-3. Primeira abertura: clique com **botão direito → Abrir** (o Gatekeeper reclama porque o app não é assinado com Developer ID)
-4. Se o macOS insistir que "o app está danificado":
-   ```bash
-   xattr -dr com.apple.quarantine /Applications/iCloudPeek.app
-   ```
+2. Monte o DMG e **arraste o `iCloudPeek.app` pra pasta Aplicativos**
+
+> **macOS — liberar o app na primeira abertura.** Como o app não é notarizado pela Apple, ao baixá-lo da internet o macOS bloqueia com a mensagem *"não foi possível verificar se está livre de malware"*. Depois de mover o app para a pasta **Aplicativos**, rode no Terminal:
+>
+> ```bash
+> xattr -dr com.apple.quarantine "/Applications/iCloudPeek.app"
+> ```
+>
+> Pronto — agora é só abrir normalmente (duplo clique). Alternativa pela interface: **Ajustes do Sistema → Privacidade e Segurança → Abrir Mesmo Assim**.
 
 ## ⚙️ Como usar
 
